@@ -1,0 +1,139 @@
+{
+    "id":"sunxihe.app.sub",
+    "name":"sunxihe应用订阅",
+    "author":"@sunxihe",
+    "icon":"https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
+    "repo":"https://github.com/sunxihe/scripts",
+    "apps":[
+        {
+            "id":"zgrb",
+            "name":"中国人保",
+            "descs_html": [
+                "<p style='margin-top:20px;font-size:16px;color:#a29bfe;text-align:center;'>开心玩耍!</p>"
+              ],
+            "keys":[
+                "@ql.runTask_Switch",
+                "zgrbck",
+                "zgrb_time",
+                "@ql.task_id"
+            ],
+            "settings":[
+                {
+                    "id": "@ql.runTask_Switch",
+                    "name": "是否开启自动运行",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": "会自动执行任务"
+                },
+                {
+                    "id": "@ql.task_id",
+                    "name": "青龙任务ID",
+                    "desc": "请填写中国人保的任务ID",
+                    "val": null
+                },
+                {
+                    "id": "zgrbck",
+                    "name": "中国人保CK",
+                    "val": null,
+                    "type": "text",
+                    "rows": 10,
+                    "desc": "中国人保CK"
+                },
+                {
+                    "id": "zgrb_time",
+                    "val": "2023/05/15"
+                }
+
+            ],
+            "author":"@sunxihe",
+            "repo":"https://github.com/WowYiJiu/Personal/blob/main/Script/boxjs_to_ql.js",
+            "script":"https://raw.githubusercontent.com/sunxihe/scripts/master/scripts/zgrb_boxjs_to_ql.js",
+            "icons":[
+                "https://raw.githubusercontent.com/sunxihe/scripts/master/icon/20240406231220.jpg",
+                "https://raw.githubusercontent.com/sunxihe/scripts/master/icon/20240406231220.jpg"
+            ]
+        },
+        {
+            "id":"Bark&Database",
+            "name":"Bark&数据库",
+            "descs_html": [
+                "<p style='margin-top:20px;font-size:16px;color:#a29bfe;text-align:center;'>开心玩耍!</p>"
+              ],
+            "keys":[
+                "bark_switch",
+                "database_switch",
+                "bark_address",
+                "datebase_address",
+                "datebase_table",
+                "@ql.ip",
+                "@ql.client_id",
+                "@ql.client_secret"
+            ],
+            "settings":[
+                {
+                    "id": "bark_switch",
+                    "name": "是否bark通知",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": ""
+                  },
+                {
+                    "id":"database_switch",
+                    "name": "是否开启数据库写入",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": ""
+                },
+                {
+                    "id": "bark_address",
+                    "name": "bark通知地址",
+                    "val": null,
+                    "type": "text",
+                    "rows": 1,
+                    "desc": "bark通知地址"
+                },
+                {
+                    "id": "@ql.ip",
+                    "name": "青龙登陆的域名或IP:端口号",
+                    "val": "",
+                    "type": "text"
+                },
+                {
+                    "id": "@ql.client_id",
+                    "name": "应用 Client ID",
+                    "val": "",
+                    "type": "text"
+                },
+                {
+                    "id": "@ql.client_secret",
+                    "name": "应用 Client Secret",
+                    "val": "",
+                    "type": "text"
+                },
+                {
+                    "id": "datebase_address",
+                    "name": "写入数据库接口",
+                    "val": null,
+                    "type": "text",
+                    "rows": 1,
+                    "desc": "数据库接口"
+                },
+                {
+                    "id": "datebase_table",
+                    "name": "数据库表名",
+                    "val": null,
+                    "type": "text",
+                    "rows": 1,
+                    "desc": "数据库接口"
+                }
+            ],
+            "author":"@sunxihe",
+            "repo":"https://github.com/sunxihe/scripts/scripts",
+            "script":"https://raw.githubusercontent.com/sunxihe/scripts/master/scripts/test.js",
+            "icons":[
+                "https://raw.githubusercontent.com/sunxihe/scripts/master/icon/0013025625364286_b.jpg",
+                "https://raw.githubusercontent.com/sunxihe/scripts/master/icon/0013025625364286_b.jpg"
+            ]
+        }
+    ]
+}
